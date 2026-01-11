@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de eficiencia energética para hogares inteligentes</title>
+<link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__text">
+    <h1>Calcule la eficiencia energética de su hogar</h1>
+    <p>Tome la iniciativa y resuelva el problema del consumo excesivo de energía</p>
+  </div>
+</header>
+
+<main>
+  <h2 class="main__title">Especifique el número de dispositivos que utilizan electricidad:</h2>
+
+  <ul class="cards">
+    <li class="card">
+      <a href={{ lights + '/4' }}>
+        <img src="../static/img/battery.svg" class="card__icon">
+        <p>3-5 dispositivos</p>
+      </a>
+    </li>
+
+    <li class="card">
+      <a href={{ lights + '/7' }}>
+        <img src="../static/img/battery.svg" class="card__icon">
+        <p>6-8 dispositivos</p>
+      </a>
+    </li>
+
+    <li class="card">
+      <a href={{ lights + '/10' }}>
+        <img src="../static/img/battery.svg" class="card__icon">
+        <p>10 o más</p>
+      </a>
+    </li>
+
+    <li class="card eco">
+  <a href={{ lights + '/1' }}>
+    <img class="card__icon" src="../static/img/eco.svg" alt ="light">
+    <p>¡Nuestra asamblea ecólogica!</p>
+  </a>
+</li>
+  </ul>
+</main>
+
+</body>
+</html>

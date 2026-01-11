@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #fff;
+    color: #272727;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header {
+    background-image: url("../img/back.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #CCE59D;
+    padding: 25vh 30px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/* MAIN */
+main {
+    padding: 0 30px 100px;
+}
+
+.main__title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* TARJETAS */
+.cards{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    margin-bottom:100px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:270px;
+    height:340px;
+    border-radius:28px;
+    border:2px solid #EB8028;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:white;
+}
+
+.card a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration:none;
+    color:#EB8028;
+    gap:18px;
+    font-weight:600;
+}
+
+/* iconos */
+.card__icon{
+    width:140px;
+}
+
+/* ECO */
+.card.eco{
+    border-color:#4CAF50;
+}
+
+.eco-pro{
+    background:#f3fff3;
+}
+
+.eco-title{
+    font-size:22px;
+    color:#2e7d32;
+}
+
+.eco-desc{
+    font-size:14px;
+    line-height:18px;
+    color:#2f5d34;
+    padding:0 15px;
+}
+
+.eco-btn{
+    background:#4CAF50;
+    color:white;
+    padding:10px 22px;
+    border-radius:22px;
+    font-size:14px;
+}
+
+/* RESULTADO */
+.main__title--margin{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.main__rez{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:18px;
+    margin-bottom:60px;
+}
+
+.rez__img{
+    width:180px;
+    height:auto;
+}
+
+.rez__title{
+    font-weight:800;
+    font-size:20px;
+    text-align:center;
+}
+
+.rez__desc{
+    font-weight:600;
+    font-size:16px;
+    text-align:center;
+    max-width:640px;
+}

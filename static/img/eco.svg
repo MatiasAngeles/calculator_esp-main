@@ -1,0 +1,22 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24">
+  <ns0:defs>
+    <ns0:linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#9BE15D" />
+      <ns0:stop offset="100%" stop-color="#00C853" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  
+  <ns0:path d="M256 40            C140 40 70 140 120 220            C160 280 240 260 260 200            C280 140 330 110 380 130            C420 80 350 40 256 40Z" fill="url(#g1)" />
+
+  
+  <ns0:path d="M100 270            C80 350 140 440 240 460            C300 470 330 440 300 390            C260 330 260 300 300 260            C230 220 130 230 100 270Z" fill="url(#g1)" />
+
+  
+  <ns0:path d="M412 280            C460 350 430 440 330 460            C260 470 240 440 260 390            C300 330 300 300 260 260            C330 220 390 230 412 280Z" fill="url(#g1)" />
+
+  
+  <ns0:path d="M200 160 C260 190 290 210 320 240" stroke="#C8E6C9" stroke-width="14" fill="none" />
+  <ns0:path d="M180 320 C240 350 270 370 300 400" stroke="#C8E6C9" stroke-width="14" fill="none" />
+  <ns0:path d="M330 320 C290 350 260 370 230 400" stroke="#C8E6C9" stroke-width="14" fill="none" />
+</ns0:svg>
